@@ -5,16 +5,18 @@
 .color-2 {
     color: red;
 }
+
 .color-3 {
     color: green;
 }
+
 .color-4 {
     color: yellow;
 }
+
 .color-5 {
     color: orange;
 }
-
 
 .letter1 {
     color: purple;
@@ -40,20 +42,26 @@
     font-size: 10px;
 }
 
+.back-heading {
+    background-color: aqua;
+}
+
 .backcolor1 {
     background-color: blue;
 }
 
-
 .backcolor2 {
     background-color: red;
 }
+
 .backcolor3 {
     background-color: green;
 }
+
 .backcolor4 {
     background-color: yellow;
 }
+
 .backcolor5 {
     background-color: orange;
 }
@@ -61,16 +69,55 @@
 .fontsize1 {
     font-size: 10px;
 }
+
 .fontsize2 {
     font-size: 20px;
 }
+
 .fontsize3 {
     font-size: 30px;
 }
+
 .fontsize4 {
-    font-size: 40px
+    font-size: 40px;
 }
 
 .fontsize5 {
     font-size: 50px;
+}
+
+.font1 {
+    font-size: 12px;
+}
+
+.font2 {
+    font-size: 14px;
+}
+
+.font3 {
+    font-size: 16px;
+}
+
+.font4 {
+    font-size: 18px;
+}
+
+.font5 {
+    font-size: 20px;
+}
+
+.font6 {
+    font-size: 22px;
+}
+
+.font7 {
+    font-size: 24px;
+}
+
+.font8 {
+    font-size: 26px;
+}
+
+.font9 {
+    font-size: 28px;
 }
