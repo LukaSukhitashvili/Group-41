@@ -1,0 +1,65 @@
+/* General styles */
+body {
+    font-size: 18px;
+    background-color: #e6f2ff;
+    color: #0066cc;
+}
+
+/* Title styles */
+.title {
+    color: #8000ff;
+    font-size: 24px;
+}
+
+/* Form styles */
+.form {
+    background-color: #ffe6e6;
+    color: #990066;
+}
+
+.input {
+    background-color: #e6ffe6;
+    font-size: 14px;
+    color: #006600;
+}
+
+.btn {
+    background-color: #ff6600;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #cc5200;
+    color: #ffcc00;
+}
+
+/* List styles */
+.ul-list {
+    background-color: #fff5e6;
+    color: #994d00;
+    font-size: 30px;
+}
+
+.ol-list {
+    background-color: #fff5e6;
+    color: #994d00;
+}
+
+/* Image styles */
+.img {
+    background-color: #e6ffff;
+    border: #006600 10px solid;
+}
+
+/* Video styles */
+.video {
+    background-color: #ffe6ff;
+   
+}
+
+/* Audio styles */
+.audio {
+    background-color: #f2e6ff;
+    color: #4d0099;
+}

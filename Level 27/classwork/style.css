@@ -1,0 +1,102 @@
+body {
+    background-color: #F0F0F0;
+}
+
+.heading-1 {
+    font-size: 40px;
+    color: #2C3E50;
+}
+
+.heading-2 {
+    font-size: 35px;
+    color: #34495E;
+    background-color: #6ce2ff;
+}
+
+.heading-3 {
+    font-size: 30px;
+    color: #3498DB;
+}
+
+.heading-4 {
+    font-size: 26px;
+    color: #1ABC9C;
+    background-color: #8cffe6;
+}
+
+.heading-5 {
+    font-size: 21px;
+    color: #2980B9;
+}
+
+.heading-6 {
+    font-size: 16px;
+    color: #16A085;
+    background-color: #befdd9;
+}
+
+.paragraph {
+    font-size: 16px;
+    
+}
+
+.button {
+    font-size: 16px;
+    background-color: #E74C3C;
+    color: #ffffff;
+}
+
+.button:hover {
+    background-color: #C0392B;
+}
+
+
+.p1 { color: #FF5733; 
+
+}
+.p2 { color: #33FF57; 
+
+}
+.p3 { color: #5733FF; 
+
+}
+.p4 { color: #FF33F1; 
+
+}
+.p5 { color: #33FFF1; 
+}
+.p6 { color: #9ea812; 
+
+}
+.p7 { color: #FF8C33; 
+
+}
+.p8 { color: #338CFF; 
+}
+.p9 { color: #8C33FF; 
+
+}
+.p10 { color: #FF3366; 
+
+}
+.p11 { color: #33FF66; 
+
+}
+.p12 { color: #6633FF; 
+
+}
+.p13 { color: #FF6633; 
+
+}
+.p14 { color: #33FF99; 
+
+}
+.p15 { color: #9933FF;
+
+}
+.p16 { color: #FF99CC; 
+
+}
+.p17 { color: #99FFCC; 
+
+}
