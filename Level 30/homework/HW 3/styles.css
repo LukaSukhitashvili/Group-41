@@ -1,0 +1,34 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:bisque;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #8b4513; /* Brown color for the heading */
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #8b4513;
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+img {
+    border-radius: 10px;
+}
+
+a {
+    margin: 0 20px;
+}
+
+a img {
+    width: 300px;
+}

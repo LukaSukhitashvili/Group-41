@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(235, 236, 127)
+}
+
+#heading {
+    color: rgb(136, 8, 8);
+    border: 4px dashed rgb(223, 21, 21);
+}
+
+#text1 {
+    font-family: monospace;
+    
+}
+
+#text2 {
+    font-family:fantasy
+}
+
+#text3 {
+    font-family: cursive;
+}
+
+.first-group {
+    font-size: 25px;
+    color: rgb(128, 255, 212);
+    border: 4px dashed rgb(141, 223, 196);
+}
+
+.second-group {
+    font-size: 30px;
+    color:rgb(184, 134, 11);
+    border: 4px dashed rgb(201, 169, 87);
+}
+
+#p1 {
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+#p2 {
+    font-weight: 900;
+}
+
+#p3 {
+    font-weight: 500;
+}
+
+
+#p4 {
+    font-weight: 600;
+}
+
+#p5 {
+    font-style: italic;
+}
+
+#p6 {
+    font-style:oblique
+}
