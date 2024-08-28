@@ -1,0 +1,37 @@
+body {
+    background-color:#faebd7
+}
+
+.img {
+    box-shadow: 10px 10px 20px #5a3d31, -10px -10px 20px #c5a48a;
+    border: #5a3d31 15px double;
+}
+
+.h1 {
+    color:#8b5e3c;
+}
+
+.access {
+    color: #8b5e3c;
+    font-size: 20px;
+}
+
+.btn1 {
+    background-color: #8b5e3c;
+    color: #faebd7;
+    border-color: #8b5e3c;
+    margin-right: 50px;
+    font-size: 30px;
+    
+}
+
+.btn2 {
+    background-color: #8b5e3c;
+    color: #faebd7;
+    border-color: #8b5e3c;
+    font-size: 30px;
+    
+}
+
+
+

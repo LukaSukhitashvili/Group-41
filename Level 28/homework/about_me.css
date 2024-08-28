@@ -1,0 +1,34 @@
+body {
+    background-color: #faebd7;
+}
+
+#heading {
+    font-size: 45px;
+    color: #8b5e3c;
+    text-align: center;
+}
+
+.intro {
+    margin: 20px;
+}
+
+.img {
+    box-shadow: 10px 10px 20px #5a3d31, -10px -10px 20px #c5a48a;
+    border: #5a3d31 15px double;
+}
+
+#bio {
+    color: #8b5e3c;
+    font-size: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {
+    background-color: #8b5e3c;
+    color: #faebd7;
+    border-color: #8b5e3c;
+    font-size: 30px;
+    margin: 10px;
+}

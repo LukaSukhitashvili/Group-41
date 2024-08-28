@@ -1,0 +1,58 @@
+body {
+    background-color: #faebd7;
+}
+
+#heading {
+    font-size: 45px;
+    color: #8b5e3c;
+}
+
+#socials {
+    text-align: center;
+    font-size: 35px;
+    color: #8b5e3c;
+}
+
+#facebook_logo {
+    margin-left: 800px;
+    margin-right: 300px;
+}
+
+#gmail_logo {
+    margin-right: -300px;
+    margin-left: 50px;
+}
+
+#goa_logo {
+    
+}
+
+#github {
+    text-align: center;
+    font-size: 35px;
+    color: #8b5e3c;
+}
+
+.logo {
+    border: #8b5e3c 10px dashed;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px #5a3d31, -10px -10px 20px #c5a48a;
+}
+
+#git_logo {
+    margin-right: -300px;
+    margin-left: 50px;
+}
+
+#projects {
+    margin-left: 800px;
+    margin-right: 300px;
+}
+
+.btn {
+    background-color: #8b5e3c;
+    color: #faebd7;
+    border-color: #8b5e3c;
+    font-size: 30px;
+    
+}
