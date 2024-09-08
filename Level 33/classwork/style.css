@@ -1,0 +1,13 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #ff0909;
+    color: rgb(255, 251, 0);
+    border: 5px solid #F00;
+    font-family: cursive;
+    text-align: center;
+    text-shadow: 10px 10px 3px rgb(185, 159, 8);
+    box-shadow: 10px 10px 10px #0F0;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}

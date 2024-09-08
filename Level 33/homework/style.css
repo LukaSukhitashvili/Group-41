@@ -1,0 +1,90 @@
+body {
+    background-color:bisque
+}
+
+div {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 10px 10px 10px yellow;
+    border-radius: 10px;
+    position: relative;
+    bottom: -100px;
+}
+
+img {
+    position: relative;
+    top: -300px;
+    left: -160px;
+}
+
+
+#perfume {
+    position: relative;
+    top: -700px;
+    right: -45px;
+    letter-spacing: 10px;
+    font-family: cursive;
+    color: gray;
+
+}
+
+#gabriel {
+    position: relative;
+    top: -700px;
+    left: 15px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: a
+
+}
+
+#floral {
+    color: gray;
+    position: relative;
+    top: -700px;
+    font-size: 1.1em;
+    right: -30px;
+}
+
+#price-1 {
+    color: #3c8470;
+    font-size: 30px;
+    position: relative;
+    top: -750px;
+    right: -20px;
+    font-weight: 1000;
+
+}
+
+#price-2 {
+    color: gray;
+    position: relative;
+    top: -805px;
+    right: -150px;
+    text-decoration: line-through;
+}
+
+#btn {
+    color: white;
+    background-color: #3c8470;
+    font-size: 20px;
+    border: 1px solid #3c8470;
+    border-radius: 5px;
+    font-family: cursive;
+    position: relative;
+    top: -800px;
+    right: -70px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    
+
+}
+
+#cart {
+    position: relative;
+    top: -835px;
+    left: 10px;
+
+}
