@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background for the entire site */
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #4169e1; /* Royal Blue */
+    text-align: center;
+    color: white;
+}
+
+.info-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #4169e1; /* Royal Blue */
+}
+
+footer {
+    background-color: #191970; /* Midnight Blue */
+    color: #fff;
+    text-align: center;
+}
+
+/* Background-repeat property explanations */
+
+/*
+    repeat: The background image is repeated both vertically and horizontally.
+    This is the default behavior if background-repeat isn't specified.
+    Example:
+    background-repeat: repeat;
+*/
+
+/*
+    no-repeat: The background image is not repeated. The image will only be shown once.
+    Example:
+    background-repeat: no-repeat;
+*/
+
+/*
+    repeat-x: The background image is repeated only horizontally.
+    Example:
+    background-repeat: repeat-x;
+*/
+
+/*
+    repeat-y: The background image is repeated only vertically.
+    Example:
+    background-repeat: repeat-y;
+*/
+
+/* You can use these properties in the background shorthand. For example:
+   background: url('image.jpg') repeat-x;
+*/
