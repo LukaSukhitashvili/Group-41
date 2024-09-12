@@ -1,0 +1,24 @@
+body {
+    background-color:antiquewhite
+}
+
+
+.photo-button {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/013/822/358/small/modern-neon-glowing-buttons-minimal-neon-button-for-web-design-app-game-interface-png.png');
+    background-size: cover;
+    background-position: center;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.photo-container {
+    background-image: url('https://img.freepik.com/free-photo/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-63452.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+    width: 300px;
+}
+
