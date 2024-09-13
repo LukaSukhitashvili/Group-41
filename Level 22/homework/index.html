@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>HTML5 Feature Showcase</h1>
+        <nav>
+            <ul>
+                <li><a href="#text-formatting">Text Formatting</a></li>
+                <li><a href="#lists">Lists</a></li>
+                <li><a href="#multimedia">Multimedia</a></li>
+                <li><a href="#table">Table</a></li>
+                <li><a href="#form">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="text-formatting">
+            <h2>Text Formatting</h2>
+            <p>This is a <strong>bold text</strong> and this is an <em>italicized text</em>.</p>
+            <p>You can also use <u>underline</u> and <s>strikethrough</s>.</p>
+            <p>This is a <mark>highlighted text</mark> and this is a <small>smaller text</small>.</p>
+            <p>You can also use <sup>superscript</sup> and <sub>subscript</sub>.</p>
+            <blockquote>This is a blockquote. It's often used for longer quotes.</blockquote>
+            <pre>
+This is preformatted text.
+It preserves both spaces and line breaks.
+            </pre>
+            <code>This is inline code</code>
+        </section>
+
+        <section id="lists">
+            <h2>Lists</h2>
+            <h3>Unordered List</h3>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <h3>Ordered List</h3>
+            <ol>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+            </ol>
+            <h3>Definition List</h3>
+            <dl>
+                <dt>Term 1</dt>
+                <dd>Definition 1</dd>
+                <dt>Term 2</dt>
+                <dd>Definition 2</dd>
+            </dl>
+        </section>
+
+        <section id="multimedia">
+            <h2>Multimedia Section</h2>
+            
+            <h3>Image Gallery</h3>
+            <figure>
+                <img src="https://picsum.photos/id/1015/300/200" alt="A beautiful landscape">
+                <figcaption>A beautiful landscape</figcaption>
+            </figure>
+            <figure>
+                <img src="https://picsum.photos/id/1016/300/200" alt="A mountain scene">
+                <figcaption>A mountain scene</figcaption>
+            </figure>
+            <figure>
+                <img src="https://picsum.photos/id/1018/300/200" alt="A forest view">
+                <figcaption>A forest view</figcaption>
+            </figure>
+            
+            <h3>Video Content</h3>
+            <video width="320" height="240" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+            <h3>Audio Content</h3>
+            <audio controls>
+                <source src="goa_is_best.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="table">
+            <h2>Table Example</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                        <th>Header 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Row 1, Cell 1</td>
+                        <td>Row 1, Cell 2</td>
+                        <td>Row 1, Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2, Cell 1</td>
+                        <td>Row 2, Cell 2</td>
+                        <td>Row 2, Cell 3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="form">
+            <h2>Form Example</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <aside>
+            <h3>Sidebar</h3>
+            <p>This is an aside element, often used for sidebars or pull quotes.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 HTML Showcase. All rights reserved.</p>
+    </footer>
+</body>
+</html>
