@@ -1,0 +1,111 @@
+body {
+    background-image: url("./background.svg");
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;   
+}
+
+.container {
+    width: 450px;
+    height: 700px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 100px auto;
+}
+
+#hero {
+    width: 450px;
+    height: 220px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 100px auto;
+    position:relative;
+    top: -100px;
+}
+
+#order {
+    position:relative;
+    top: -150px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+}
+
+#description {
+    position:relative;
+    top: -150px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #7f8499
+
+}
+
+.plan_box{
+    position:relative;
+    top: -100px;
+    width: 350px;
+    height: 100px;
+    background-color: #f7f9ff;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#music {
+    position:relative;
+    top: 20px;
+    left: 20px;
+}
+
+#plan {
+    position:relative;
+    top: -50px;
+    right: -100px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+}
+
+#price {
+    position:relative;
+    top: -55px;
+    right: -100px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+
+#change {
+    position:relative;
+    top: -100px;
+    right: -270px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#payment {
+    position:relative;
+    right: -50px;
+    top: -70px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    background-color: #402ce4;
+    color: white;
+    border-radius: 10px;
+    width: 350px;
+    height: 50px;
+    border: none;
+    box-shadow: 0 10px 10px #7f8499;
+}
+
+#cancel {
+    position:relative;
+    bottom: 20px;
+    right: 180px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    color: #7f8499;
+}
