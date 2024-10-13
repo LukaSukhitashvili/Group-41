@@ -1,0 +1,105 @@
+body {
+    background-color: #19a1ad;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Removed z-index and overflow */
+}
+
+#top {
+    position: absolute;
+    left: -300px;
+    top: -500px;
+}
+
+#bottom {
+    position: absolute;
+    right: -150px;
+    bottom: -500px;
+}
+
+#container {
+    background-color: white;
+    width: 350px;
+    border-radius: 15px;
+    /* Removed overflow */
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.card-header {
+    height: 140px;
+    background-image: url('images/bg-pattern-card.svg');
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.profile-image {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -50px;
+}
+
+.user-info {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.age {
+    color: #6b7082;
+    font-weight: normal;
+}
+
+.location {
+    color: #6b7082;
+    font-size: 14px;
+    margin: 10px 0 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e8e9ec;
+    margin: 0;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.stat-item h2 {
+    font-size: 18px;
+    margin: 0 0 5px;
+}
+
+.stat-item p {
+    font-size: 12px;
+    color: #6b7082;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+/* Removed the incomplete .bg-pattern class to prevent issues */
+
