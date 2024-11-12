@@ -1,0 +1,17 @@
+div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+div img {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+div img:hover {
+    opacity: 100%;
+    transform: scale(1.1);
+}

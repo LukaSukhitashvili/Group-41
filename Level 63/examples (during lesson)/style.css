@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+
+
+#box1 {
+    width: 400px;
+    height: 400px;
+    background-color:red;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 5px solid black;
+    animation-name: changePosition;
+    animation-duration: 3s;
+    animation-fill-mode:both;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+   
+    
+}
+
+#box2 {
+    width: 400px;
+    height: 400px;
+    background-color:rgb(0, 20, 196);
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 5px solid black;
+    animation-name: changePosition2;
+    animation-duration: 3s;
+    animation-fill-mode:both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+@keyframes changePosition {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(200px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes changePosition2 {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-200px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes changeColor {
+    0% {
+        background-color: red;
+    }
+    15% {
+        background-color: orange;
+    }
+    30% {
+        background-color: yellow;
+    }
+    45% {
+        background-color: green;
+    }
+    60% {
+        background-color: cyan;
+    }
+    75% {
+        background-color: indigo;
+    }
+    100% {
+        background-color: indigo;
+    }
+}

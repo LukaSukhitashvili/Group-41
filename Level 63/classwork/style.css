@@ -1,0 +1,41 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div button {
+    background-color: #92b901;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease;
+    animation-fill-mode:both;
+}
+
+@keyframes rotate {
+    0% {
+        transform: translateX(0) rotate(0deg);
+        background-color: #92b901;
+    }
+
+    50% {
+        transform: translateX(300px) rotate(20deg);
+        background-color: #20c7e3;
+    }
+
+    100% {
+        transform: translateX(0) rotate(-360deg);
+        background-color: #92b901;
+    }
+   
+}
+
+
