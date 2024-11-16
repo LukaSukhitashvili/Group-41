@@ -1,0 +1,27 @@
+div {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(300px, 0);
+    }
+    50% {
+        transform: translate(300px, 300px);
+    }
+    75% {
+        transform: translate(0, 300px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
