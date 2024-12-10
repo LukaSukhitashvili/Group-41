@@ -1,0 +1,12 @@
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background: blue;
+    transition: all 1s;
+}
+
+.rectangle:hover {
+    background: orange;
+    width: 250px;
+    height: 150px;
+}

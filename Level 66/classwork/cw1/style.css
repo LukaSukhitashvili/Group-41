@@ -1,0 +1,35 @@
+body {
+    padding: 20px;
+    background: url('https://picsum.photos/1200/800');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.gradient-text {
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff0000, #00ff00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+
+.masked-element {
+    -webkit-mask-image: linear-gradient(to right, transparent, black);
+    mask-image: linear-gradient(to right, transparent, black);
+    background: black;
+    color: white;
+    padding: 20px;
+}

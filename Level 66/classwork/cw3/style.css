@@ -1,0 +1,75 @@
+:root {
+    --main-color: #333;
+    --bg-color: #f0f0f0;
+    --accent-color: #4CAF50;
+    --font-size: 16px;
+    --font-family: Arial, sans-serif;
+    --shadow: 0 2px 5px rgba(0,0,0,0.2);
+    --border: 2px solid #ddd;
+    --radius: 8px;
+    --spacing: 20px;
+    --padding: 15px;
+    --pos-type: relative;
+    --pos-top: 10px;
+    --pos-left: 20px;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: var(--spacing);
+    background: var(--bg-color);
+    position: var(--pos-type);
+}
+
+.card {
+    background: white;
+    padding: var(--padding);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin-bottom: var(--spacing);
+    position: var(--pos-type);
+    top: var(--pos-top);
+}
+
+.btn {
+    background: var(--accent-color);
+    color: white;
+    padding: var(--padding);
+    border: none;
+    border-radius: var(--radius);
+    font-size: var(--font-size);
+    position: var(--pos-type);
+    left: var(--pos-left);
+}
+
+.text {
+    color: var(--main-color);
+    font-size: var(--font-size);
+    margin: var(--spacing) 0;
+    position: var(--pos-type);
+    top: var(--pos-top);
+    left: var(--pos-left);
+    background: white;
+    padding: var(--padding);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    border: var(--border);
+}
+
+.box {
+    border: var(--border);
+    padding: var(--padding);
+    margin: var(--spacing) 0;
+    border-radius: var(--radius);
+    position: var(--pos-type);
+    top: var(--pos-top);
+}
+
+.header {
+    background: var(--accent-color);
+    color: white;
+    padding: var(--padding);
+    margin-bottom: var(--spacing);
+    border-radius: var(--radius);
+    position: var(--pos-type);
+}

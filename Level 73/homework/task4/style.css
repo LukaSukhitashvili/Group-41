@@ -1,0 +1,10 @@
+.block {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    transition: all 1.5s;
+}
+
+.block:hover {
+    transform: translate(-50px, 0) rotate(90deg) scale(1.2);
+}

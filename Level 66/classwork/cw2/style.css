@@ -1,0 +1,23 @@
+.box1, .box2, .box3 {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+.box1 {
+    background: linear-gradient(to right, #ff6b6b, #4ecdc4);
+}
+
+
+.box2 {
+    background: linear-gradient(45deg, #a8e6cf, #dcedc1);
+}
+
+
+.box3 {
+    background: linear-gradient(to bottom, #ffd93d, #ff6b6b, #4ecdc4);
+}
