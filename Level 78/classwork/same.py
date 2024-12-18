@@ -1,0 +1,1 @@
+print("It was same as homework")
