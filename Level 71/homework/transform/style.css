@@ -1,0 +1,49 @@
+.transform-example1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: 0.3s;
+}
+.transform-example1:hover {
+    transform: scale(1.5);
+}
+
+.transform-example2 {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: 0.3s;
+}
+.transform-example2:hover {
+    transform: rotate(45deg);
+}
+
+.transform-example3 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    transition: 0.3s;
+}
+.transform-example3:hover {
+    transform: translate(50px, 50px);
+}
+
+.transform-example4 {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    transition: 0.3s;
+}
+.transform-example4:hover {
+    transform: skew(20deg);
+}
+
+.transform-example5 {
+    width: 100px;
+    height: 100px;
+    background: purple;
+    transition: 0.3s;
+}
+.transform-example5:hover {
+    transform: scale(1.2) rotate(45deg) translate(20px);
+}

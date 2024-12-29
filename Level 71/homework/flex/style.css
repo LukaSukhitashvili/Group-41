@@ -1,0 +1,41 @@
+.flex-container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+.flex-container1 div,
+.flex-container2 div,
+.flex-container3 div,
+.flex-container4 div,
+.flex-container5 div {
+    width: 100px;
+    height: 100px;
+    background: #ddd;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+}

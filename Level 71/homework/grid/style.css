@@ -1,0 +1,43 @@
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "sidebar main";
+}
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.grid-container5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 10px;
+}
+
+
+.grid-container1 div,
+.grid-container2 div,
+.grid-container3 div,
+.grid-container4 div,
+.grid-container5 div {
+    background: #ddd;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,62 @@
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-50px); }
+}
+
+@keyframes fade {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    75% { transform: translateX(10px); }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+.animation-example1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: bounce 2s infinite;
+}
+
+.animation-example2 {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    animation: fade 2s infinite;
+}
+
+.animation-example3 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    animation: rotate 2s linear infinite;
+}
+
+.animation-example4 {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    animation: shake 0.5s infinite;
+}
+
+.animation-example5 {
+    width: 100px;
+    height: 100px;
+    background: purple;
+    animation: pulse 1s infinite;
+}
