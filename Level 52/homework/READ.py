@@ -1,0 +1,1 @@
+print("Some codewars links showed 404 error so its not my fault i didnt do all of them")

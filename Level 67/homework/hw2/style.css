@@ -1,0 +1,124 @@
+body {
+    background-color: #f8f4f2;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    max-width: 600px;
+    margin: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    flex: 1;
+}
+
+.product-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.product-content {
+    flex: 1;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.category {
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+
+.product-description {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.current-price {
+    color: #2e8b57;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.original-price {
+    color: #888;
+    font-size: 0.9rem;
+    text-decoration: line-through;
+}
+
+.add-to-cart {
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #226641;
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        flex-direction: column;
+        max-width: 400px;
+    }
+
+    .product-image {
+        flex: none;
+    }
+
+    .product-content {
+        padding: 20px;
+    }
+
+    .product-name {
+        font-size: 1.3rem;
+    }
+
+    .product-description {
+        font-size: 0.9rem;
+    }
+
+    .price {
+        margin-bottom: 15px;
+    }
+
+    .add-to-cart {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}

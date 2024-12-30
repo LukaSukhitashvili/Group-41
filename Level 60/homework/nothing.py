@@ -1,0 +1,1 @@
+print("I currently don't have enough knowledge to do these Codewars forgive me for now.")
