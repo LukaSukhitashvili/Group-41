@@ -1,0 +1,1 @@
+print("We had codewars on lesson, so whatever is in classwork is in homework")
