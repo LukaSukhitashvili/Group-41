@@ -1,0 +1,21 @@
+mkdir "New Folder"
+cd "New Folder"
+
+code git_info.txt
+
+# After writing content in VS Code:
+cd
+dir
+copy git_info.txt git_info_backup.txt
+mkdir backup_folder
+copy git_info.txt backup_folder
+
+mkdir test_folder
+cd test_folder
+dir
+cd ..
+
+ren test_folder new_folder
+dir
+
+findstr "Git" git_info.txt
