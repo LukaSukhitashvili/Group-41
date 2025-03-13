@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassList Remove Demo</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: #f0f0f0;
+            border: 2px solid #ccc;
+            margin: 20px;
+            transition: all 0.3s ease;
+        }
+        .highlight {
+            background-color: #ffeb3b;
+            border-color: #fdd835;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            transform: scale(1.1);
+        }
+        button {
+            padding: 10px 20px;
+            margin: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="myBox" class="box highlight"></div>
+    <button onclick="removeHighlight()">Remove Highlight Class</button>
+
+    <script src="hw2.js"></script>
+</body>
+</html>

@@ -1,30 +1,21 @@
-let arr1 = [1, 2, 3, 4, 5];
-let arr2 = [6, 7, 8, 9, 10];
-let arr3 = [11, 12, 13];
+let arr1 = [1, 2, 3, 4, 5]
+let arr2 = [6, 7, 8, 9, 10]
+let arr3 = [11, 12, 13, 14, 15]
 
-let mergedArray = arr1.concat(arr2);
-console.log(mergedArray);
+let mergedArray =  arr1.concat(arr1, arr2);
 
 mergedArray.copyWithin(5, 0, 3);
-console.log(mergedArray);
 
 mergedArray.fill(0, 6);
-console.log(mergedArray);
 
+// remove the last elemnt from mergedArray using the pop method
 mergedArray.pop();
-console.log(mergedArray);
 
+// remove the first element from mergedArray using the shift method
 mergedArray.shift();
-console.log(mergedArray);
 
+// add the elements 100 and 200 to the beginning of mergedArray using the unshift method
 mergedArray.unshift(100, 200);
-console.log(mergedArray);
 
-mergedArray.splice(2, 2, arr3[0], arr3[1], arr3[2]);
-console.log(mergedArray);
-
-let slicedArray = mergedArray.slice(-5);
-console.log(slicedArray);
-
-let result = slicedArray.join(",");
-console.log(result);
+// use the splice method to remove the elements at indices 2 and 3, and replace them with the elements of arr3
+mergedArray.splice(2, 2, 11, 12, 13, 14, 15);

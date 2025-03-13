@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>setTimeout Tasks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .task {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            padding: 8px 15px;
+            margin: 5px;
+        }
+        #message {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+    <h1>setTimeout Tasks</h1>
+    
+    <div class="task">
+        <h2>Delayed Message</h2>
+        <button onclick="showDelayedMessage()">Show Message After 2 Seconds</button>
+        <div id="delayedMessage"></div>
+    </div>
+
+    <div class="task">
+        <h2>Countdown Timer</h2>
+        <input type="number" id="countdownInput" value="5" min="1" max="10">
+        <button onclick="startCountdown()">Start Countdown</button>
+        <div id="countdown"></div>
+    </div>
+
+    <div class="task">
+        <h2>Delayed Color Change</h2>
+        <button onclick="changeColor()">Change Color After 1 Second</button>
+        <div id="colorBox" style="width: 100px; height: 100px; background-color: #ff0000;"></div>
+    </div>
+
+    <script src="hw3.js"></script>
+</body>
+</html> 

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Date and setTimeout Tasks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .task {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            padding: 8px 15px;
+            margin: 5px;
+        }
+        #greeting {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        #reminder {
+            font-size: 20px;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .morning {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        .afternoon {
+            background-color: #cce5ff;
+            color: #004085;
+        }
+        .evening {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        #schedule {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Date and setTimeout Tasks</h1>
+    
+    <div class="task">
+        <h2>Time-Based Greeting</h2>
+        <div id="greeting"></div>
+        <button onclick="updateGreeting()">Update Greeting</button>
+    </div>
+
+    <div class="task">
+        <h2>Reminder System</h2>
+        <input type="number" id="reminderMinutes" value="1" min="1" max="60">
+        <button onclick="setReminder()">Set Reminder</button>
+        <div id="reminder"></div>
+    </div>
+
+    <div class="task">
+        <h2>Schedule Display</h2>
+        <button onclick="showSchedule()">Show Today's Schedule</button>
+        <div id="schedule"></div>
+    </div>
+
+    <script src="hw5.js"></script>
+</body>
+</html> 

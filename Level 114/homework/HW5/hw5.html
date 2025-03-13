@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        .quiz-container {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            max-width: 500px;
+        }
+        .options {
+            margin: 20px 0;
+        }
+        .option {
+            margin: 10px 0;
+        }
+        button {
+            margin: 20px 0;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h2>ქვიზი</h2>
+        <p>რომელია საქართველოს დედაქალაქი?</p>
+        
+        <div class="options">
+            <div class="option">
+                <input type="radio" id="option1" name="answer" value="batumi">
+                <label for="option1">ბათუმი</label>
+            </div>
+            <div class="option">
+                <input type="radio" id="option2" name="answer" value="tbilisi">
+                <label for="option2">თბილისი</label>
+            </div>
+            <div class="option">
+                <input type="radio" id="option3" name="answer" value="kutaisi">
+                <label for="option3">ქუთაისი</label>
+            </div>
+            <div class="option">
+                <input type="radio" id="option4" name="answer" value="rustavi">
+                <label for="option4">რუსთავი</label>
+            </div>
+        </div>
+
+        <button id="checkAnswerBtn">შემოწმება</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="hw5.js"></script>
+</body>
+</html> 

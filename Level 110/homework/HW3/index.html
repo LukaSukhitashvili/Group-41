@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementsByClassName Example</title>
+    <style>
+        .container {
+            margin: 20px;
+            padding: 10px;
+        }
+        .highlight-item {
+            padding: 10px;
+            margin: 5px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 8px 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>getElementsByClassName Demo</h1>
+        
+        <div class="highlight-item">First item</div>
+        <div class="highlight-item">Second item</div>
+        <div class="highlight-item">Third item</div>
+        <div class="highlight-item">Fourth item</div>
+
+        <button onclick="highlightItems()">Highlight Items</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

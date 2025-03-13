@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contains Class Demo</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+            padding: 20px;
+            border: 2px solid orange;
+            transition: all 0.3s ease;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        #target {
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 20px;
+        }
+        #status {
+            margin: 20px;
+            color: #333;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="target">Click the buttons to test class functionality</div>
+    <button onclick="toggleHighlightClass()">Toggle Highlight</button>
+    <button onclick="checkHighlightClass()">Check Highlight Class</button>
+    <div id="status"></div>
+    <script src="hw4.js"></script>
+</body>
+</html>

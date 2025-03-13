@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassList Replace Demo</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            transition: all 0.3s ease;
+        }
+        .theme-light {
+            background-color: #f0f0f0;
+            border: 2px solid #ccc;
+            color: #333;
+        }
+        .theme-dark {
+            background-color: #333;
+            border: 2px solid #666;
+            color: #fff;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 20px;
+            cursor: pointer;
+        }
+        #status {
+            margin: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div id="myBox" class="box theme-light">Theme Demo</div>
+    <button onclick="replaceTheme()">Switch Theme</button>
+    <div id="status">Current theme: Light</div>
+
+    <script src="hw5.js"></script>
+</body>
+</html>

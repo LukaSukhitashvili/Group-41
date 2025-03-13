@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Manipulation Demo</title>
+    <style>
+        .container {
+            margin: 20px;
+            padding: 10px;
+        }
+        .style-target {
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            transition: all 0.3s ease;
+        }
+        button {
+            padding: 8px 16px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Style Manipulation Demo</h1>
+        
+        <div id="box1" class="style-target">
+            Box 1 - Click buttons to change my style
+        </div>
+
+        <div id="box2" class="style-target">
+            Box 2 - I will transform
+        </div>
+
+        <div id="box3" class="style-target">
+            Box 3 - Watch my border animation
+        </div>
+
+        <div class="controls">
+            <button onclick="changeColors()">Change Colors</button>
+            <button onclick="transform()">Transform</button>
+            <button onclick="animateBorder()">Animate Border</button>
+            <button onclick="resetStyles()">Reset All</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

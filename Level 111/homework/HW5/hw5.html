@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassList Item Demo</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            transition: all 0.3s ease;
+        }
+        .theme-light {
+            background-color: #f0f0f0;
+            border: 2px solid #ccc;
+        }
+        .rounded {
+            border-radius: 10px;
+        }
+        .shadow {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        button {
+            padding: 10px 20px;
+            margin: 20px;
+            cursor: pointer;
+        }
+        #classList {
+            margin: 20px;
+            font-size: 16px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div id="myBox" class="box theme-light rounded shadow"></div>
+    <button onclick="showClassList()">Show Class List</button>
+    <div id="classList"></div>
+    <script src="hw5.js"></script>
+</body>
+</html>

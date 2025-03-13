@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Date and setInterval Tasks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .task {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            padding: 8px 15px;
+            margin: 5px;
+        }
+        #timeDisplay {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        #stopwatch {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        #timer {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Date and setInterval Tasks</h1>
+    
+    <div class="task">
+        <h2>Digital Clock</h2>
+        <div id="timeDisplay"></div>
+        <button onclick="toggleClock()">Start/Stop Clock</button>
+    </div>
+
+    <div class="task">
+        <h2>Stopwatch</h2>
+        <div id="stopwatch">00:00:00</div>
+        <button onclick="startStopwatch()">Start</button>
+        <button onclick="stopStopwatch()">Stop</button>
+        <button onclick="resetStopwatch()">Reset</button>
+    </div>
+
+    <div class="task">
+        <h2>Timer</h2>
+        <input type="number" id="timerInput" value="60" min="1">
+        <button onclick="startTimer()">Start Timer</button>
+        <div id="timer"></div>
+    </div>
+
+    <script src="hw4.js"></script>
+</body>
+</html> 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innerText Example</title>
+    <style>
+        .container {
+            margin: 20px;
+            padding: 10px;
+        }
+        #textContent {
+            padding: 15px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+        .hidden {
+            display: none;
+        }
+        button {
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>innerText Demo</h1>
+        
+        <div id="textContent">
+            This is <strong>formatted</strong> text with <em>styling</em>.
+            <span class="hidden">This text is hidden with CSS.</span>
+        </div>
+
+        <button onclick="changeText()">Change Text Content</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

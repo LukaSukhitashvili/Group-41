@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setInterval Tasks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 5px 10px;
+            margin: 5px 0;
+        }
+        #result {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>setInterval Tasks</h1>
+    
+    <div class="section">
+        <h2>Counter Timer</h2>
+        <div id="counter">0</div>
+        <button onclick="startCounter()">Start Counter</button>
+        <button onclick="stopCounter()">Stop Counter</button>
+    </div>
+
+    <div class="section">
+        <h2>Current Time</h2>
+        <div id="currentTime"></div>
+    </div>
+
+    <div class="section">
+        <h2>Random Number Generator</h2>
+        <div id="randomNumber"></div>
+    </div>
+
+    <script src="hw2.js"></script>
+</body>
+</html> 

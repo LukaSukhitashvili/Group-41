@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .makeDivBigger {
+            background-color: rgb(247, 8, 8);
+            border: none;
+            color: white;
+            padding: 10px;
+
+        }
+
+        .makeDivSmaller {
+            background-color: rgb(47, 248, 7);
+            border: none;
+            color: white;
+            padding: 10px;
+
+        }
+
+        .changingDiv {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(0, 233, 163);
+        }
+
+        .makeBigger {
+            width: 200px;
+            height: 200px;
+        }
+
+        .makeSmaller {
+            width: 50px;
+            height: 50px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <button class="makeDivBigger" onclick="makeBigger()">Bigger Div</button>
+        <button class="makeDivSmaller" onclick="makeSmaller()">Smaller Div</button>
+        <div class="changingDiv"></div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
