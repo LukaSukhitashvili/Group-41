@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        #colorBox {
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: monospace;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>ფერების შემთხვევითი გენერატორი</h2>
+    <div id="colorBox">rgb(255, 255, 255)</div>
+    <button onclick="changeColor()">შეცვლა</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Counter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        #counter {
+            font-size: 24px;
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        button {
+            margin: 5px;
+            padding: 5px 10px;
+        }
+        .button-group {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>მარტივი მრიცხველი</h2>
+    <div id="counter">0</div>
+    
+    <div class="button-group">
+        <button onclick="changeNumber(1)">გაზრდა</button>
+        <button onclick="changeNumber(-1)">შემცირება</button>
+    </div>
+    
+    <div class="button-group">
+        <button onclick="changeNumber(10)">გაზრდა 10-ით</button>
+        <button onclick="changeNumber(-10)">შემცირება 10-ით</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Message Display</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        #messageBox {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            min-height: 50px;
+        }
+        input {
+            padding: 5px;
+            margin: 5px;
+            width: 200px;
+        }
+        button {
+            padding: 5px 10px;
+            margin: 5px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>ტექსტური შეტყობინების ჩვენება</h2>
+    <div>
+        <input type="text" id="messageInput" placeholder="შეიყვანეთ ტექსტი">
+        <button onclick="showMessage()">ჩვენება</button>
+        <button onclick="clearAll()">გასუფთავება</button>
+    </div>
+    <div id="messageBox"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

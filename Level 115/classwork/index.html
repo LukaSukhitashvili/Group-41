@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <style>
+        .slider-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        #slider {
+            max-width: 300px;
+            margin-bottom: 20px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="slider-container">
+        <img id="slider" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" alt="Programming Language Logo">
+        <div class="buttons">
+            <button onclick="priv()">Previous</button>
+            <button onclick="next()">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Image Slider</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #f0f0f0;
+        }
+        .slider-container {
+            position: relative;
+            width: 80%;
+            max-width: 800px;
+            height: 400px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        }
+        .slider {
+            width: 100%;
+            height: 100%;
+        }
+        .slide {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .slide.active {
+            opacity: 1;
+        }
+        .slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .nav-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255,255,255,0.7);
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 50%;
+            font-size: 18px;
+            z-index: 10;
+        }
+        .prev {
+            left: 20px;
+        }
+        .next {
+            right: 20px;
+        }
+        .dots-container {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 10px;
+            z-index: 10;
+        }
+        .dot {
+            width: 12px;
+            height: 12px;
+            background: rgba(255,255,255,0.5);
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .dot.active {
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide active">
+                <img src="https://picsum.photos/800/400?random=1" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/800/400?random=2" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/800/400?random=3" alt="Image 3">
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/800/400?random=4" alt="Image 4">
+            </div>
+        </div>
+        <button class="nav-button prev">←</button>
+        <button class="nav-button next">→</button>
+        <div class="dots-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

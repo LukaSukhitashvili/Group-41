@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple List Manager</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        button {
+            margin: 5px;
+            padding: 5px 10px;
+        }
+        input {
+            padding: 5px;
+            margin: 5px;
+        }
+        ul {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Simple List Manager</h2>
+    <div>
+        <input type="text" id="itemInput" placeholder="Enter item text">
+        <button onclick="addItem()">დამატება</button>
+        <button onclick="clearList()">გასუფთავება</button>
+    </div>
+    <ul id="itemList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
